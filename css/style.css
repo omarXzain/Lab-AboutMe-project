@@ -1,0 +1,29 @@
+h1 {
+    text-align: center;
+    color: slateblue;
+    font-family: cursive;
+}
+
+body{
+
+    background-color: mediumslateblue;
+
+}
+
+Body {
+
+    background-image: url("https://dl.dropboxusercontent.com/s/7tij7u8culb1nnb/Guess.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.txtt{
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: wheat;
+    font-size: 29px;
+    text-align: center;
+    padding: 90px;
+}
+
+
