@@ -46,9 +46,9 @@ if (qs3 === true ){
 var qs4 = confirm('Do You Think That I Smoke??');
 // console.log(qs4);
 if (qs4 === true ){
-  alert('Actully.. You Are Right I Never Smoke :D');
+  alert('Actually.. You Are Wrong I Never Smoke :D');
 } else if (qs4 === false ){
-  alert('Wrong.. I Never Smoke ');
+  alert('You Guessed.. I Never Smoke ');
 }
 // Question 5
 var qs5 = confirm('Did You Know That I Sleep Barefoot? ');
