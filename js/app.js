@@ -46,8 +46,10 @@ var threeA = 0;
 var qs4 = confirm('Do You Think That I Smoke??');
 // console.log(qs4);
 if (qs4 === true ){
-  alert('Actually.. You Are Wrong I Never Smoke :D');
+  threeA = qs4 = 1;
+  alert('Actually.. You Are right I Never Smoke :D');
 } else if (qs4 === false ){
+  threeA = qs4 = 0;
   alert('You Guessed.. I Never Smoke ');
 }
 alert ('You Got ' + Number(threeA) + ' Point');
