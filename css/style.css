@@ -1,18 +1,12 @@
 h1 {
     text-align: center;
-    color: slateblue;
+    color: rgb(236, 106, 19);
     font-family: cursive;
 }
 
-body{
+body {
 
-    background-color: mediumslateblue;
-
-}
-
-Body {
-
-    background-image: url("https://dl.dropboxusercontent.com/s/7tij7u8culb1nnb/Guess.png");
+    background-image: url("https://image.freepik.com/free-vector/abstract-holographic-background-with-pastel-colors_61607-586.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -20,10 +14,28 @@ Body {
 .txtt{
 
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: wheat;
-    font-size: 29px;
-    text-align: center;
-    padding: 90px;
+    color: rgb(17, 17, 16);
+    font-size: 19px;
+    padding: 4px;
 }
 
+.fastfood{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(14, 13, 13);
+    font-size: 18px;
 
+}
+
+li {
+    padding: 5px;
+    
+}
+
+#kfc{
+
+    position: absolute;
+    top: 23%;
+    left: 67%;
+    width: 34%;
+
+}
