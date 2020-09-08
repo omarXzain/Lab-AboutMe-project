@@ -8,7 +8,6 @@ alert('Nice To Meet You ' + username + ' !!');
 alert('Well ' + username + ' I Prepared For You Several Questions');
 
 //--------------------------------------------------------------------
-
 // Question 1
 var qs2 = prompt('Ok Now First Of All If I Asked You To Go With Me Into A Date ... Will You Agree??', 'yes Or no Or maybe').toLowerCase();
 // console.log(qs2);
@@ -47,11 +46,9 @@ var threeA = 0;
 var qs4 = confirm('Do You Think That I Smoke??');
 // console.log(qs4);
 if (qs4 === true ){
-  threeA = qs4 = 0;
-  alert('Actually.. You Are Wrong .. I Never Smoke :D');
+  alert('Actually.. You Are Wrong I Never Smoke :D');
 } else if (qs4 === false ){
-  threeA = qs4 = 1;
-  alert('You Are Right! .. I Never Smoke ');
+  alert('You Guessed.. I Never Smoke ');
 }
 alert ('You Got ' + Number(threeA) + ' Point');
 //--------------------------------------------------------------------
@@ -148,9 +145,8 @@ for( var q = 0; q < 6 ; q++){
   }
 }
 ('You Got ' + Number(sevenA) + ' Point');
-alert ('Your Total Score is ' + (Number(oneA) + Number(twoA) + Number(threeA) + Number(fourA) + Number(fiveA) + sixA + Number(sevenA)) + ' From 7 Points');
+alert ('Your Total Score is ' + (Number(oneA) + Number(twoA) + Number(threeA) + Number(fourA) + Number(fiveA) + sixA + Number(sevenA)) + ' From 7 Points .. Not Bad');
 //--------------------------------------------------------------------
-
 
 
 
