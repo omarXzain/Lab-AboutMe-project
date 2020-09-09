@@ -1,9 +1,6 @@
 
-Version 2.00
+Navigatior: Omar Zain
+Driver: Rand Alsallaq
 
-This update include:
-Bugs fixes
-and i added 2 questions to make the game even more fun
-i hope you to enjoy this realese
-added new stye 
-By@omarXzain 
+My navigator told me to add 7 functions, each function for a question and then to call them.
+We tested the web page and it is working well.
