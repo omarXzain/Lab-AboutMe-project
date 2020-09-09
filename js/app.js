@@ -1,5 +1,16 @@
 'use strict';
 
+// Define The Scores vars
+var oneA = 0;
+var twoA = 0;
+var threeA = 0;
+var fourA = 0;
+var fiveA = 0;
+var sixA = 0;
+var sevenA = 0;
+
+//--------------------------------------------------------------------
+
 // Welcome Message
 alert('Welcome To Mind Games World');
 var username = prompt('Please Tell Me Your Name So We Can Know Each Other More');
@@ -11,7 +22,7 @@ alert('Well ' + username + ' I Prepared For You Several Questions');
 // Question 1
 var qs2 = prompt('Ok Now First Of All If I Asked You To Go With Me Into A Date ... Will You Agree??', 'yes Or no Or maybe').toLowerCase();
 // console.log(qs2);
-var oneA = 0;
+
 if(qs2 === 'yes' || qs2 === 'y'){
   oneA = qs2 = 1;
   alert('Ooh Really!! Lets Go Then At 11AM Someday');
@@ -28,8 +39,7 @@ alert (' You Got ' + Number(oneA) + ' Point');
 //--------------------------------------------------------------------
 
 // Question 2
-// eslint-disable-next-line no-unused-vars
-var twoA = 0;
+
 var qs3 = confirm('Did You Know That I Drink Coffee Mate Every Morning ?');
 // console.log(qs3);
 if (qs3 === true ){
@@ -42,21 +52,21 @@ alert ('You got ' + Number(twoA) + ' Point');
 //--------------------------------------------------------------------
 
 // Question 3
-var threeA = 0;
+
 var qs4 = confirm('Do You Think That I Smoke??');
 // console.log(qs4);
 if (qs4 === true ){
-  threeA = qs4 = 1;
-  alert('Actually.. You Are right I Never Smoke :D');
-} else if (qs4 === false ){
   threeA = qs4 = 0;
+  alert('Actually.. You Are Wrong I Never Smoke :D');
+} else if (qs4 === false ){
+  threeA = qs4 = 1;
   alert('You Guessed.. I Never Smoke ');
 }
 alert ('You Got ' + Number(threeA) + ' Point');
 //--------------------------------------------------------------------
 
 // Question 4
-var fourA = 0;
+
 var qs5 = confirm('Did You Know That I Sleep Barefoot? ');
 // console.log(qs5);
 if (qs5 === true ){
@@ -69,7 +79,7 @@ alert ('You Got ' + Number(fourA) + ' Point');
 //--------------------------------------------------------------------
 
 // Question 5
-var fiveA = 0;
+
 var qs6 = confirm('Say Yes If You Are An Android User And No If You  Are Not');
 // console.log(qs6);
 if (qs6 === true ){
@@ -88,7 +98,7 @@ alert('You Are Now My Friend ' + username + ' I Have 2 Questions For You' );
 // Question 6
 var arrayNumbers = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15];
 var attemps = 3;
-var sixA = 0;
+
 for( var r = 0; r < 4 ; r++){
   var userNum = prompt(' Can You Guess The Number That is In My Mind From 1 to 15');
   userNum = Number(userNum);
@@ -121,11 +131,10 @@ alert ('You Got ' + sixA + ' Point');
 //--------------------------------------------------------------------
 
 // Question 7
-// eslint-disable-next-line no-undef
 
 var arrayQues = ['fish', 'human' , 'light' ,'sun light', 'fire', 'egg' , 'shark', 'car' ];
 var attemps2 = 5;
-var sevenA = 0;
+
 for( var q = 0; q < 6 ; q++){
   var userInput = prompt(' A Thing That Can Enter The Water Without getting Wet??').toLowerCase();
   console.log(q);
